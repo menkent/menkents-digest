@@ -53,6 +53,8 @@
 
 - Reactive Forms  
 	- [**Say Goodbye to Angular Template-Driven**](https://netbasal.com/why-its-time-to-say-goodbye-to-angular-template-driven-forms-350c11d004b)
+	- [**Реактивные формы с компонентами**](https://itnext.io/partial-reactive-form-with-angular-components-443ca06d8419)
+		- [Понятный пример](https://stackblitz.com/edit/monolithic-reactive-form?file=app%2Fapp.component.html)
 
 - Lazy Loading  
 	- [**Как работает LazyLoading в WebPack **](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
@@ -122,6 +124,11 @@
 - https://material.angular.io/components/categories  
 - https://material.io/tools/icons/?icon=check&style=baseline  
 
+
+## 7 Multi Apps
+- [**Bootstrapping multiple Angular 2 applications on the same page**](https://blog.sstorie.com/bootstrapping-multiple-angular-2-applications-on-the-same-page/)
+	- [github](https://github.com/sstorie/experiments/blob/master/angular2-multiple-applications/index.html)
+- [**Multiapps on ONE project**](https://github.com/angular/angular-cli/wiki/stories-multiple-apps)
 
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
