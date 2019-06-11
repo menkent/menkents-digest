@@ -6,6 +6,7 @@ NestJS - тот самый, настоящий бэкенд на nodejs
 - [Вводная статья с хабра](https://habr.com/ru/post/439434/)
 
 ## С чего начать  
+- [Хороший пример из чата](https://github.com/ZackFox/face-list-nestserver)
 ### Установка
 ### Добавление passport-js и jwt
 
