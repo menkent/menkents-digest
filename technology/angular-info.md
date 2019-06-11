@@ -35,7 +35,7 @@
 - Data Binding
 	- [Двустороннее связывание Angular](https://habr.com/ru/post/453696/)
 	- [Understanding Data Binding](https://blog.bitsrc.io/data-binding-in-angular-cbc433481cec)
-	- **ngModelGroup** в компонентах и ControlValueAccessor:
+	- **ngModelGroup** в компонентах и **ControlValueAccessor**:
 		- [ ngModelGroup ]="name", а в компоненте: viewProviders: [{ provide: ControlContainer, useExisting: NgForm }],
 		- [**ControlValueAccessor**](https://habr.com/ru/company/tinkoff/blog/443714/)
 
@@ -115,7 +115,7 @@
 - [Redux, Angular Style: ngrx/store](https://blog.usejournal.com/redux-angular-style-ngrx-store-b2876280708e)
 		
 ## Angular Animation
-- [Angular Animation](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
+- [**Angular Animation**](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
 
 ## 6 Angular Material (Angular Components)
 - https://material.angular.io/guide/typography  
