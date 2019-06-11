@@ -1,2 +1,2 @@
-# menkents-digest
-Menkent's Digest
+# Menkent's Digest
+FAQs, list of articles and etc.
