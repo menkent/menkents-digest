@@ -5,3 +5,8 @@
 - [Тапы по кнопкам и :hover - Method 3](http://javascriptkit.com/dhtmltutors/sticky-hover-issue-solutions.shtml)
 - параллакс, «липкий» футер
     - https://habr.com/ru/company/skillbox/blog/442658/
+
+
+
+# Sass/SCSS
+- [Развёрнутое руководство по Sass/SCSS](https://tproger.ru/translations/complete-sass-guide/)

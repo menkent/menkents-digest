@@ -23,10 +23,13 @@
 - [Собираем бандл мечты](https://habr.com/ru/company/oleg-bunin/blog/433324/)
 - [**Webpack From Zero to Hero**](https://tech.olx.com/webpack-from-zero-to-hero-cf1b77b852c9)
 - [**Показано как ангуляр работает внутри, как сделать свой плагин для вебкпака**](https://blog.angularindepth.com/having-fun-with-angular-and-typescript-transformers-2c2296845c56)
+- [**WebPack code splittiong**](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
+- [**Ещё статья по бандлам**](https://medium.com/@adamrackis/vendor-and-code-splitting-in-webpack-2-6376358f1923)
 
 
 ## VSCODE  
 - [Python + Visual Studio Code = успешная разработка](https://proglib.io/p/python-vscode/)
+- [Отладка Angular CLI приложения в VSCode с помощью Browser Preview](https://habr.com/ru/company/iponweb/blog/443574/)
 
 
 ## TypeScript

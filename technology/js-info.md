@@ -8,6 +8,9 @@
 - [**Сборка мусора в V8: как работает новый Orinoco GC**](https://habr.com/ru/company/badoo/blog/454930/)
 
 
+### JS Closure
+- [**Какой здесь this?**](https://habr.com/ru/post/452192/)
+
 ### JavaScript Objects and Arrays
 - https://habr.com/ru/company/ruvds/blog/438794/
 - Symbols + Proxy Objects: https://habr.com/ru/company/ruvds/blog/444340/
