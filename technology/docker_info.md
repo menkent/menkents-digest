@@ -1,5 +1,11 @@
 # Docker info
 
+## Статьи по докеру  
+- Основополагающие статьи на [хабре](https://habr.com/ru/company/ruvds/blog/441574/)  
+- [Docker Compose для начинающих](https://habr.com/ru/company/ruvds/blog/450312/)  
+- [**12 друзей Docker-а**](https://proglib.io/p/12-docker-tools/)
+
+
 ## Механизмы Docker:  
 - Платформа Docker — ПО, благодаря которому можно работать с контейнерами.
 - Движок Docker — клиент-серверное приложение (CE или Enterprise).
