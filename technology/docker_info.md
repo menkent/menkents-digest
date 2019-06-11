@@ -1,6 +1,6 @@
 # Docker info
 
-##Механизмы Docker:  
+## Механизмы Docker:  
 - Платформа Docker — ПО, благодаря которому можно работать с контейнерами.
 - Движок Docker — клиент-серверное приложение (CE или Enterprise).
 - Клиент Docker — программа, которая позволяет взаимодействовать с демоном Docker посредством CLI.
@@ -19,11 +19,14 @@
 ## Команды:  
 - Образы. Удаление лишних:  
 ``` docker rmi $(docker images -q -a) ```   
-- Удаление неиспользуемых томов
-    - docker volume prune 
-    - docker system prune  (очистка ресурсов докера) 
-    - docker system prune -a --volumes 
-    - docker volume rm $(docker volume ls -f dangling=true -q)     (От Ильи)
+- Удаление неиспользуемых данных или томов  
+    - очистка volumes докера 
+        - ```docker volume prune``` 
+        - ```system prune -a --volumes ```
+    - очистка ресурсов докера 
+    ```docker system prune``` 
+    - удаление всех volumes от Ильи: 
+    ```docker volume rm $(docker volume ls -f dangling=true -q)```
 
 ## docker-compose   
 - docker-compose up -build -d
@@ -34,8 +37,3 @@
 
 ## Java и докер: Запуск сборки образов докеров  
 - mvn clean install -P docker_build
-
-
-
-
-

@@ -67,28 +67,28 @@ MetricRegistry metricRegistry;
 	3. Оборачиваем в JWTClaimsSet
 	4. Генерируем JWT
 	```java
-		JWSHeader headerS = new JWSHeader.Builder(RS256).keyID("/private.pem").type(JWT).build();
-		SignedJWT signedJWT = new SignedJWT(headerS, claimsSet);
-		PrivateKey key = readPrivateKey("/private.pem");
-		RSASSASigner signer = new RSASSASigner(key);
-		signedJWT.sign(signer);
-		String s = signedJWT.serialize();
+	JWSHeader headerS = new JWSHeader.Builder(RS256).keyID("/private.pem").type(JWT).build();
+	SignedJWT signedJWT = new SignedJWT(headerS, claimsSet);
+	PrivateKey key = readPrivateKey("/private.pem");
+	RSASSASigner signer = new RSASSASigner(key);
+	signedJWT.sign(signer);
+	String s = signedJWT.serialize();
 	```
 	5. readPrivateKey - функция, которая формирует приватный ключ:  
 	```java
-		InputStream contentIS = MSApplication.class.getResourceAsStream(resourceName);
-        byte[] tmp = new byte[2048];
-        int length = contentIS.read(tmp);
-        String pemEncoded = new String(tmp, 0, length)
-                .replaceAll("-----BEGIN (.*)-----", "")
-                .replaceAll("-----END (.*)----", "")
-                .replaceAll("\r\n", "")
-                .replaceAll("\n", "")
-                .trim();
-        byte[] pkcs8EncodedBytes = Base64.getDecoder().decode(pemEncoded);
-        PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(pkcs8EncodedBytes);
-        KeyFactory kf = KeyFactory.getInstance("RSA");
-        PrivateKey pk = kf.generatePrivate(keySpec);
-        return pk;
+	InputStream contentIS = MSApplication.class.getResourceAsStream(resourceName);
+	byte[] tmp = new byte[2048];
+	int length = contentIS.read(tmp);
+	String pemEncoded = new String(tmp, 0, length)
+			.replaceAll("-----BEGIN (.*)-----", "")
+			.replaceAll("-----END (.*)----", "")
+			.replaceAll("\r\n", "")
+			.replaceAll("\n", "")
+			.trim();
+	byte[] pkcs8EncodedBytes = Base64.getDecoder().decode(pemEncoded);
+	PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(pkcs8EncodedBytes);
+	KeyFactory kf = KeyFactory.getInstance("RSA");
+	PrivateKey pk = kf.generatePrivate(keySpec);
+	return pk;
 	```
 
