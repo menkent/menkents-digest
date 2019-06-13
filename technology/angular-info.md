@@ -63,6 +63,8 @@
 - Локализация
 	- [Мультиязычные приложения в Angular](https://habr.com/ru/post/446402/)
 
+- Новый движок рендера Ivy 
+	- [**Вводная**](https://blog.angularindepth.com/all-you-need-to-know-about-ivy-the-new-angular-engine-9cde471f42cf)
 
 - Angular 6
 	- Library for Angular
@@ -116,6 +118,7 @@
 		
 ## Angular Animation
 - [**Angular Animation**](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
+- [Простой пример анимации через Canvas](https://blog.angularindepth.com/how-to-get-started-with-canvas-animations-in-angular-2f797257e5b4)
 
 ## 6 Angular Material (Angular Components)
 - [typography](https://material.angular.io/guide/typography)
