@@ -92,3 +92,18 @@ MetricRegistry metricRegistry;
 	return pk;
 	```
 
+### JWT from client:
+- JS example
+```js
+$.ajax({
+	url: '',
+	type: 'GET',
+	contentType: 'application/json'
+	headers: {
+		'Authorization': 'Bearer <token>'  // Сюда и вставляем полученный JWT токен
+	},
+	success: function (result) {},
+	error: function (error) {}
+});
+```
+
