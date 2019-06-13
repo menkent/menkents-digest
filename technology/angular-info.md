@@ -3,35 +3,34 @@
 ## 0 Забавные статьи около Ангуляра
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
-- Что нужно знать по Angular[habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
+- Что нужно знать по Angular: [habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
 
 
-## 1 Angular Change Detection Strategy
-- Основы (Immutable ! ) https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4
-- Глубже
-	- https://habr.com/post/327004/
-	- https://blog.angularindepth.com/angular-ivy-change-detection-execution-are-you-prepared-ab68d4231f2c
-- Максимально глубоко: https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930
+## 1 Angular
+- Change Detection Strategy
+	- Основы ([Immutable](https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4)) 
+	- Глубже
+		- [Все, что вам нужно знать об обнаружении изменений в Angular](https://habr.com/post/327004/)
+		- [Angular Ivy change detection](https://blog.angularindepth.com/angular-ivy-change-detection-execution-are-you-prepared-ab68d4231f2c)
+	- [Максимально глубоко](https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930)
+	- [Ошибки при несоблюдении стратегий (на самом деле когда дочерние компоненты меняют родительские)](https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4)
 
 - Зоны и runOutsideAngular Example (внизу пример)
-	- https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html   (zone.js без ангуляр)
-	- https://blog.thoughtram.io/angular/2016/02/01/zones-in-angular-2.html#ngzone-in-angular
+	- [zone.js без ангуляр](https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html)
+	- [Running code outside Angular’s zone](https://blog.thoughtram.io/angular/2016/02/01/zones-in-angular-2.html#ngzone-in-angular)
 
-- ng-content
-	- https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e
-	- https://medium.com/@tkssharma/understanding-viewchildren-viewchild-contentchildren-and-contentchild-b16c9e0358e
+- ng-content, ViewChildren, ContentChildren
+	- [Understanding ViewChildren, ContentChildren, and QueryList](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
+	- [Подробнее](https://medium.com/@tkssharma/understanding-viewchildren-viewchild-contentchildren-and-contentchild-b16c9e0358e)
 
-- Ошибки при несоблюдении стратегий (на самом деле когда дочерние компоненты меняют родительские)  
-	- https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4
-
-- Работа с эвентами в ангуляр - написание своих обработчиков эвентов
-	- https://habr.com/ru/company/tinkoff/blog/429692/
+- Angular Events
+	- [написание своих обработчиков эвентов](https://habr.com/ru/company/tinkoff/blog/429692/)
 
 - LifeCycles
 	- [**OnInit**](https://ultimatecourses.com/blog/exploring-angular-lifecycle-hooks-oninit)
 
 - Работа с Validators и Формами и NG-Group
-	- https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html
+	- [Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
 	
 - Data Binding
 	- [Двустороннее связывание Angular](https://habr.com/ru/post/453696/)
@@ -46,8 +45,8 @@
 
 - angular Progressive Web Application (PWA)
 	- [Общее](https://habr.com/ru/post/303626/)
-	- https://itnext.io/the-prpl-pattern-for-progressive-web-applications-using-angular-6-f7237b7dc2a7
-	- https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020
+	- [**PRPL pattern**](https://itnext.io/the-prpl-pattern-for-progressive-web-applications-using-angular-6-f7237b7dc2a7)
+	- [Build PWA](https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020)
 	- [**Modern Web App**](https://habr.com/ru/post/432368/)
 
 - [Внедрение зависимостей](https://habr.com/ru/post/429342/)
@@ -58,7 +57,7 @@
 		- [Понятный пример](https://stackblitz.com/edit/monolithic-reactive-form?file=app%2Fapp.component.html)
 
 - Lazy Loading  
-	- [**Как работает LazyLoading в WebPack **](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
+	- [**Как работает LazyLoading в WebPack**](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
 	- [**Router Updates in 7.1 + порядок гвардов**](https://blog.angularindepth.com/new-in-angular-v7-1-updates-to-the-router-fd67d526ad05)
 
 - Локализация
@@ -67,14 +66,13 @@
 
 - Angular 6
 	- Library for Angular
-		- https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11  
+		- [Как создавать библиотеки](https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11)
 
 	- WorkSpaces
-		- https://medium.com/@angularlicious/angular-6-workspace-test-drive-cfe24bbceeb3  
+		- [Test-Drive](https://medium.com/@angularlicious/angular-6-workspace-test-drive-cfe24bbceeb3)
 
 	- **CLI Builders**  
-		- https://blog.angular.io/introducing-cli-builders-d012d4489f1b
-		- https://habr.com/ru/post/450746/
+		- [Оригинал](https://blog.angular.io/introducing-cli-builders-d012d4489f1b)  [Перевод](https://habr.com/ru/post/450746/)
 
 - Angular 8
 	- [Обзор](https://medium.com/webbdev/angular-4c42d86eaa62)
@@ -83,27 +81,26 @@
 
 
 ## 2 Angular Optimization 
-- Основы
-	- https://m.habr.com/ru/company/ruvds/blog/425661/
-	- https://webformyself.com/stimulyaciya-proizvoditelnosti-vashego-prilozheniya-na-frejmvorke-angular-4/
-	- https://www.telerik.com/blogs/tips-for-optimizing-your-angular-application
+- Общее
+	- [Простые советы](https://www.telerik.com/blogs/tips-for-optimizing-your-angular-application)
+	- [Глубокие советы](https://m.habr.com/ru/company/ruvds/blog/425661/)  [Оригинал](https://www.freecodecamp.org/news/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f/)
 
-- Когда глючит ngFor  (trackBy - оптимизация)
-	- https://netbasal.com/angular-2-improve-performance-with-trackby-cc147b5104e5
+- Когда глючит ngFor:
+	- [trackBy - оптимизация](https://netbasal.com/angular-2-improve-performance-with-trackby-cc147b5104e5)
 		
 
 
 ## 3 RxJS
 - retryWhen and pipe:
-	- https://blog.angularindepth.com/rxjs-understanding-lettable-operators-fe74dda186d3 
-	- https://www.learnrxjs.io/operators/error_handling/retrywhen.html
+	- [**Understanding Lettable Operators**](https://blog.angularindepth.com/rxjs-understanding-lettable-operators-fe74dda186d3)
+	- [**retryWhen**](https://www.learnrxjs.io/operators/error_handling/retrywhen.html)
 - takeUntill:
-	- https://alligator.io/angular/takeuntil-rxjs-unsubscribe/
-	- закрытие пайпов через until: [link](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
+	- [Очень простой пример](https://alligator.io/angular/takeuntil-rxjs-unsubscribe/)
+	- [Закрытие пайпов через until](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
 
 - concatMap, mergeMap, switchMap (для работы с множеством одинаковых запросов):
-	- https://blog.angularindepth.com/practical-rxjs-in-the-wild-requests-with-concatmap-vs-mergemap-vs-forkjoin-11e5b2efe293
-	- https://netbasal.com/understanding-mergemap-and-switchmap-in-rxjs-13cf9c57c885
+	- [concatMap vs mergeMap vs forkJoin](https://blog.angularindepth.com/practical-rxjs-in-the-wild-requests-with-concatmap-vs-mergemap-vs-forkjoin-11e5b2efe293)
+	- [mergeMap and switchMap](https://netbasal.com/understanding-mergemap-and-switchmap-in-rxjs-13cf9c57c885)
 
 - [просто общая инфа по Observable](https://habr.com/post/337512/) 
 - [**Never think of RxJs Subscriptions again**](https://blog.angularindepth.com/having-fun-with-angular-and-typescript-transformers-2c2296845c56)
@@ -121,9 +118,9 @@
 - [**Angular Animation**](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
 
 ## 6 Angular Material (Angular Components)
-- https://material.angular.io/guide/typography  
-- https://material.angular.io/components/categories  
-- https://material.io/tools/icons/?icon=check&style=baseline  
+- [typography](https://material.angular.io/guide/typography)
+- [components](https://material.angular.io/components/categories)
+- [icons](https://material.io/tools/icons/?icon=check&style=baseline)  
 
 
 ## 7 Multi Apps
