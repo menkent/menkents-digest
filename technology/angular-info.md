@@ -1,8 +1,5 @@
 # Angular Links
 
-## Миграция и обновления  
-- [Миграция до 8 ангуляра](https://www.techiediaries.com/updating-angular-cli-projects/)
-
 ## 0 Забавные статьи около Ангуляра
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
@@ -81,6 +78,7 @@
 - Angular 8
 	- [Обзор](https://medium.com/webbdev/angular-4c42d86eaa62)
 	- [Что нового в Angular 8](https://habr.com/ru/post/455493/)
+	- [Миграция до 8 ангуляра](https://www.techiediaries.com/updating-angular-cli-projects/)
 
 
 
