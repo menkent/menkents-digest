@@ -1,10 +1,12 @@
 # Angular Links
 
+## Миграция и обновления  
+- [Миграция до 8 ангуляра](https://www.techiediaries.com/updating-angular-cli-projects/)
+
 ## 0 Забавные статьи около Ангуляра
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
 - Что нужно знать по Angular: [habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
-
 
 ## 1 Angular
 - Change Detection Strategy
