@@ -6,6 +6,8 @@
 - параллакс, «липкий» футер
     - https://habr.com/ru/company/skillbox/blog/442658/
 
+- [Анимированное руководство по CSS flex](https://tproger.ru/translations/flex-properties-on-css/)
+
 
 
 # Sass/SCSS
