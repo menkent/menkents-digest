@@ -13,3 +13,12 @@
 		npm install -g npm-windows-upgrade
 		npm-windows-upgrade
 		```
+### Ubuntu:
+- Установка:
+- Обновление  
+	```bash
+	sudo npm cache clean -f
+	sudo npm install -g n
+	sudo n stable   # Стабильная версия
+	sudo n latest   # Последняя версия
+	```
