@@ -1,4 +1,5 @@
-# Angular Links
+# Angular Links  
+[How Update Applications](https://update.angular.io/)
 
 ## 0 Забавные статьи около Ангуляра
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
