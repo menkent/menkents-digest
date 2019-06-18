@@ -10,3 +10,13 @@ NestJS - тот самый, настоящий бэкенд на nodejs
 ### Установка
 ### Добавление passport-js и jwt
 
+
+
+## Полезности, которые могут пригодиться  
+- Как сохранить с формы файл и поля одним запросом  
+```ts 
+    @UseInterceptors(FileInterceptor('file'))
+    @ApiConsumes('multipart/form-data')
+    @ApiImplicitFile({ name: 'file', required: true })
+    async createVectorLayer(@Body() params: any, @UploadedFile() files) {
+```
