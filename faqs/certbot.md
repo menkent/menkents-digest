@@ -24,6 +24,40 @@ sudo certbot certonly --webroot --webroot-path ~/projects/nginx/src/ -d menkent.
 - https://itc-life.ru/poluchaem-letsencrypt-wildcard-sertifikat/
 - https://wiki.yola.ru/letsencrypt:wildcard 
 
+
+
+### Алгоритм работы для WildCard
+1. Вызываем  
+```sudo certbot certonly --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
+2. Заходим в настройки хостинга и создаём там TXT Record  
+поддомен **_acme-challenge**   а значение такое, как попросит сам certbot
+3. Автоматическое обновление не сработало, поэтому поку обновил вручную: выключил всё, затем вызвал:  
+```sudo certbot certonly --dry-run --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
+после этого выбрал пункт с сертботовским сервером и оно заработало. Нужно научиться делать автоматически.
+
+
+
+## Commands
+### авто-обновление 
+1. пока не работает. Есть вариант такой:  
+https://developerinsider.co/how-to-create-and-auto-renew-lets-encrypt-wildcard-certificate/  
+но здесь нужно скачивать что-то левое, а дальше должно работать так:  
+```./certbot-auto certonly --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
+
+2. НЕ ЗАБЫТЬ ПОСЛЕ АВТО-ОБНОВЛЕНИЯ СЕРТИФИКАТОВ (hook) - [РЕСТАРТ NGINX](https://www.guyrutenberg.com/2017/01/01/lets-encrypt-reload-nginx-after-renewing-certificates/)  
+положил хук на рестарт docker контейнера с nginx на обновление. Посмотрим что получится
+3. Создание файла-хука:   
+```bash
+touch reload-nginx.sh     # создать файл 
+chmod +x reload-nginx.sh  # сделать файл исполняемым
+```
+4. Содержимое файла-хука
+```bash
+#! /bin/sh
+docker restart nginx -t=60
+```
+
+
 ### Вариант применения сертификатов для всех серверов (vhost) в nginx
 ```config
 server {
@@ -44,31 +78,6 @@ server {
   server_name b.example.com;
   root        /data/httpd/b.example.com;
 }
-```
-
-### Алгоритм работы для WildCard
-1. Вызываем  
-```sudo certbot certonly --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
-2. Заходим в настройки хостинга и создаём там TXT Record  
-поддомен **_acme-challenge**   а значение такое, как попросит сам certbot
-3. Будет ли оно обновляться - я пока не знаю, нужно проверить после 11 июня
-
-
-
-## Commands
-### авто-обновление 
-1. ```$ sudo certbot renew --dry-run```
-2. НЕ ЗАБЫТЬ ПОСЛЕ АВТО-ОБНОВЛЕНИЯ СЕРТИФИКАТОВ (hook) - [РЕСТАРТ NGINX](https://www.guyrutenberg.com/2017/01/01/lets-encrypt-reload-nginx-after-renewing-certificates/)  
-положил хук на рестарт docker контейнера с nginx на обновление. Посмотрим что получится
-3. Создание файла-хука:   
-```bash
-touch reload-nginx.sh     # создать файл 
-chmod +x reload-nginx.sh  # сделать файл исполняемым
-```
-4. Содержимое файла-хука
-```bash
-#! /bin/sh
-docker restart nginx -t=60
 ```
 
 
