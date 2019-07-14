@@ -42,6 +42,8 @@ sudo certbot certonly --webroot --webroot-path ~/projects/nginx/src/ -d menkent.
 1. пока не работает. Есть вариант такой:  
 https://developerinsider.co/how-to-create-and-auto-renew-lets-encrypt-wildcard-certificate/  
 или такой:  https://medium.com/@cubxi/add-wildcard-lets-encrypt-certifications-with-namecheap-6a466df0886f  
+ещё есть такая статья  https://blog.bryanroessler.com/2019-02-09-automatic-certbot-namecheap-acme-dns/  
+
 но здесь нужно скачивать что-то левое, а дальше должно работать так:  
 ```./certbot-auto certonly --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
 
