@@ -62,6 +62,8 @@
 
 - Локализация
 	- [Мультиязычные приложения в Angular](https://habr.com/ru/post/446402/)
+	- [Интернационализация (i18n) в Angular 2](https://habr.com/ru/post/323180/)
+	- [**Пример с понятными настройками билдинга**](https://alligator.io/angular/internationalization/)
 
 - Новый движок рендера Ivy 
 	- [**Вводная**](https://blog.angularindepth.com/all-you-need-to-know-about-ivy-the-new-angular-engine-9cde471f42cf)
