@@ -6,8 +6,9 @@
 - [Google Fonts](https://fonts.google.com/)
 
 
-## Perfomance
+## Perfomance and Optimization
 - (Производительность фронтенда: разбираем важные метрики)[https://habr.com/ru/company/mailru/blog/454920/]
+- (**Optimizing Google Fonts Performance**)[https://www.smashingmagazine.com/2019/06/optimizing-google-fonts-performance/]
 
 
 ## MAILS  
