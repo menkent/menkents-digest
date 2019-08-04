@@ -60,3 +60,11 @@ _Facebook также изменил протокол (это у них назы�
 7. так же как в гугле, ну либо можно юзать API Graph от Facebook
 
 
+### Instagram
+[Вроде тут всё по-старому](https://www.instagram.com/developer/authentication/)
+
+
+### Github
+[тут как у гугла с JWT](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)  
+[настройки приложения](https://github.com/settings/developers)
+
