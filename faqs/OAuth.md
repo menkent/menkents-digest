@@ -46,4 +46,17 @@ _раньше (в 2017) гугл работал как все, сейчас он
 6. Здесь не будет _user_id_, поэтому его нужно получить либо расшифровав JWT, либо обратившись по адресу:  ```https://openidconnect.googleapis.com/v1/userinfo```, это делается GET запросом, с Bearer авторизацией с _access_token_
 7. Ссылка для получения информации о профиле не нужна, так как всё лежит либо в JWT, либо будет ответом в предыдущем пункте
 
-### 
+### Facebook
+_Facebook также изменил протокол (это у них называется API Graph) и возвращает только access_token_
+1. ```https://www.facebook.com/v4.0/dialog/oauth?```
+2. ..
+3. ..
+4. ```https://graph.facebook.com/v4.0/oauth/access_token```
+5. В ответ получаем: 
+- _access_token_ - старый добрый **access_token** 
+- _id_token_ - JWT, который можно расшифровать самостоятельно  
+```graph.facebook.com/debug_token?input_token={token-to-inspect}&access_token={app-token-or-admin-token}```
+6. Здесь не будет _user_id_, поэтому его нужно получить либо расшифровав JWT, либо обратившись по адресу:  ```https://graph.facebook.com/me?access_token```, это делается GET запросом, с Bearer авторизацией с _access_token_
+7. так же как в гугле, ну либо можно юзать API Graph от Facebook
+
+
