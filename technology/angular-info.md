@@ -31,6 +31,7 @@
 
 - Работа с Validators и Формами и NG-Group
 	- [Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
+	- [Добавление валидаторов к компоненту внутри директивы](https://blog.angularindepth.com/a-little-trick-with-angular-forms-and-directives-137e2c53f25)
 	
 - Data Binding
 	- [Двустороннее связывание Angular](https://habr.com/ru/post/453696/)

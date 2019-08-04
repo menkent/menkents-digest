@@ -58,4 +58,5 @@
 ## MongoDB
 - [Руководство по выживанию с MongoDB - На проде](https://habr.com/ru/company/oleg-bunin/blog/454748/)
 
-## 
+## GEO-location
+- [Простой обзор кучи сервисов для локации, API, ОКАТО и тд](https://habr.com/ru/post/462011/)
