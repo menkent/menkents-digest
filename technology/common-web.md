@@ -60,3 +60,6 @@
 
 ## GEO-location
 - [Простой обзор кучи сервисов для локации, API, ОКАТО и тд](https://habr.com/ru/post/462011/)
+
+## REGEX
+- [Руководство для чайников](https://github.com/ziishaned/learn-regex/blob/master/translations/README-ru.md)
