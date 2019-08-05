@@ -9,4 +9,5 @@ FAQs, list of articles and etc.
 ### [Nginx](technology/nginx.md)
 ### [Docker and Docker Compose](technology/docker_info.md)
 ### [DevOps](technology/dev-ops.md)
+### [OAuth2](faqs/OAuth.md)
 
