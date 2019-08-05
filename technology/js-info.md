@@ -21,6 +21,7 @@
 - Descryptors: https://habr.com/ru/post/450540/
 
 ### Aсинхронные JavaScript функции
+- [средний уровень](https://habr.com/ru/post/462355/)
 - [глубокое погружение](https://proglib.io/p/js-async-await/)
 
 
