@@ -14,6 +14,7 @@
 		- [Angular Ivy change detection](https://blog.angularindepth.com/angular-ivy-change-detection-execution-are-you-prepared-ab68d4231f2c)
 	- [Максимально глубоко](https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930)
 	- [Ошибки при несоблюдении стратегий (на самом деле когда дочерние компоненты меняют родительские)](https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4)
+	- [Стратегия Change-Detection в 2019 году](https://blog.angularindepth.com/how-in-depth-knowledge-of-change-detection-helped-me-improve-applications-performance-daa04cd56ed6)
 
 - Зоны и runOutsideAngular Example (внизу пример)
 	- [zone.js без ангуляр](https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html)
@@ -68,6 +69,7 @@
 
 - Новый движок рендера Ivy 
 	- [**Вводная**](https://blog.angularindepth.com/all-you-need-to-know-about-ivy-the-new-angular-engine-9cde471f42cf)
+	- [**Асинхронные модули и Компоненты для Ivy**](https://blog.angularindepth.com/asynchronous-modules-and-components-in-angular-ivy-1c1d79d45bd3)
 
 - Angular 6
 	- Library for Angular
