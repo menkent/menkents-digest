@@ -8,3 +8,4 @@
 
 ## CSS Examples  
 - [Movin' Modals Along a Path](https://css-tricks.com/movin-modals-along-a-path/)
+- [**Curved Path**](https://css-tricks.com/moving-text-on-a-curved-path/)

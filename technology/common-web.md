@@ -6,13 +6,15 @@
 - [Google Fonts](https://fonts.google.com/)
 
 
-## Perfomance and Optimization
-- (Производительность фронтенда: разбираем важные метрики)[https://habr.com/ru/company/mailru/blog/454920/]
-- (**Optimizing Google Fonts Performance**)[https://www.smashingmagazine.com/2019/06/optimizing-google-fonts-performance/]
+## Perfomance and Optimization  
+- [Производительность фронтенда: разбираем важные метрики](https://habr.com/ru/company/mailru/blog/454920/)
+- [**Optimizing Google Fonts Performance**](https://www.smashingmagazine.com/2019/06/optimizing-google-fonts-performance/)
+- [Native lazy-loading for the web](https://web.dev/native-lazy-loading)
 
 
 ## MAILS  
 - [MAILS в GMAIL](https://developers.google.com/gmail/design/css) 
+- [Конструктор Google для вёрстки писем](https://designmodo.com/amp-emails/)
 
 ## Security  
 - [Советы для Front-end](https://habr.com/ru/post/445932/)
@@ -26,6 +28,7 @@
 - [**Показано как ангуляр работает внутри, как сделать свой плагин для вебкпака**](https://blog.angularindepth.com/having-fun-with-angular-and-typescript-transformers-2c2296845c56)
 - [**WebPack code splittiong**](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
 - [**Ещё статья по бандлам**](https://medium.com/@adamrackis/vendor-and-code-splitting-in-webpack-2-6376358f1923)
+- [Плагины для WebPack - реально могут быть полезными](https://habr.com/ru/company/constanta/blog/461105/)
 
 
 ## VSCODE  
