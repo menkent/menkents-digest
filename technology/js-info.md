@@ -13,9 +13,9 @@
 - [**Rendering Engine - модуль отображения браузера**](https://habr.com/ru/post/459814/)
 - [EventLoop в хроме](https://habr.com/ru/post/461401/)
 
-
 ### JS Closure
 - [**Какой здесь this?**](https://habr.com/ru/post/452192/)
+- [**let и замыкания**](https://habr.com/ru/post/462971/)
 
 ### JavaScript Objects and Arrays
 - https://habr.com/ru/company/ruvds/blog/438794/
@@ -27,5 +27,6 @@
 ### Aсинхронные JavaScript функции
 - [средний уровень](https://habr.com/ru/post/462355/)
 - [глубокое погружение](https://proglib.io/p/js-async-await/)
+
 
 

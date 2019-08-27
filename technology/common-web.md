@@ -20,6 +20,7 @@
 - [Советы для Front-end](https://habr.com/ru/post/445932/)
 - [Уязвимости проверки сертификатов SSL/TLS в небраузерном софте](https://habr.com/ru/post/454856/)
 - [**GitHub внедрил функции защиты кода**](https://infostart.ru/journal/news/tekhnologii/github-vnedril-novye-funktsii-zashchity-koda-razrabotchikov_1069880/)
+- [Browser Fingerprint – анонимная идентификация браузеров](https://habr.com/ru/company/oleg-bunin/blog/321294/)
 
 
 ## WebPack  

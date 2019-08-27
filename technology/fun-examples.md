@@ -9,3 +9,9 @@
 ## CSS Examples  
 - [Movin' Modals Along a Path](https://css-tricks.com/movin-modals-along-a-path/)
 - [**Curved Path**](https://css-tricks.com/moving-text-on-a-curved-path/)
+
+## Telegram 
+- [Telegram в качестве хранилища данных - забавная статья](https://habr.com/ru/post/464865/)
+
+## Canvas
+- [Анимированная Иконка во вкладке в браузере](https://css-tricks.com/the-making-of-an-animated-favicon/)
