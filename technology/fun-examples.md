@@ -15,3 +15,4 @@
 
 ## Canvas
 - [Анимированная Иконка во вкладке в браузере](https://css-tricks.com/the-making-of-an-animated-favicon/)
+    - [на русском](https://habr.com/ru/company/ruvds/blog/464127/)
