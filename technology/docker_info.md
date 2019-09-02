@@ -39,6 +39,7 @@
 - docker-compose down
 - docker exec -it <container_name> mc  -- (или bash команду)
 - docker-compose restart worker -- Для рестарта одного сервиса
+- docker logs [OPTIONS] CONTAINER  (-f - смотреть в прямом эфире)
 
 
 ## Java и докер: Запуск сборки образов докеров  

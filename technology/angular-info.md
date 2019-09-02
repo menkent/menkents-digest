@@ -1,10 +1,12 @@
 # Angular Links  
 [How Update Applications](https://update.angular.io/)
 
+
 ## 0 Забавные статьи около Ангуляра
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
 - Что нужно знать по Angular: [habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
+
 
 ## 1 Angular
 - Change Detection Strategy
@@ -87,7 +89,6 @@
 	- [Миграция до 8 ангуляра](https://www.techiediaries.com/updating-angular-cli-projects/)
 
 
-
 ## 2 Angular Optimization 
 - Общее
 	- [Простые советы](https://www.telerik.com/blogs/tips-for-optimizing-your-angular-application)
@@ -96,7 +97,6 @@
 - Когда глючит ngFor:
 	- [trackBy - оптимизация](https://netbasal.com/angular-2-improve-performance-with-trackby-cc147b5104e5)
 		
-
 
 ## 3 RxJS
 - retryWhen and pipe:
@@ -114,6 +114,7 @@
 - [**Never think of RxJs Subscriptions again**](https://blog.angularindepth.com/having-fun-with-angular-and-typescript-transformers-2c2296845c56)
 	- Тут делают плагин для вебпака, который в каждый subscribe добавить unsubscribe - очень глубокое понимание работы
 
+
 ## 4 NGRX:  
 - [Реактивные приложения на Angular/NGRX. Часть 2. Store](https://medium.com/@demyanyuk/%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-angular-ngrx-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-1412bc9adf17)
 - [Реактивные приложения на Angular/NGRX. Часть 3. Effects.](https://medium.com/@demyanyuk/%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-angular-ngrx-%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-effects-6f4b34dfa289)
@@ -121,10 +122,16 @@
 
 - [Redux Store Example](https://www.telerik.com/blogs/building-a-food-store-using-redux-and-angular)
 - [Redux, Angular Style: ngrx/store](https://blog.usejournal.com/redux-angular-style-ngrx-store-b2876280708e)
-		
+
+
 ## Angular Animation
 - [**Angular Animation**](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
 - [Простой пример анимации через Canvas](https://blog.angularindepth.com/how-to-get-started-with-canvas-animations-in-angular-2f797257e5b4)
+
+
+## Angular-Examples
+- [Создание адаптивного хеадера с менюшкой + анимация](https://medium.com/fafnur/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-angular-c-redux-%D0%B8-nx-2da5e0b8e3e8)
+
 
 ## 6 Angular Material (Angular Components)
 - [typography](https://material.angular.io/guide/typography)
@@ -139,3 +146,4 @@
 
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
+
