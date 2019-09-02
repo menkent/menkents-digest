@@ -20,6 +20,7 @@
 ### JavaScript Objects and Arrays
 - https://habr.com/ru/company/ruvds/blog/438794/
 - Symbols + Proxy Objects: https://habr.com/ru/company/ruvds/blog/444340/
+- [Practical Guide to Symbols in JavaScript - как делать приватные поля](http://thecodebarbarian.com/a-practical-guide-to-symbols-in-javascript.html)
 - rest and spread in objects: https://proglib.io/p/js-tricks/
 - arrays: https://tproger.ru/translations/javascript-arrays-best-practices/
 - Descryptors: https://habr.com/ru/post/450540/
