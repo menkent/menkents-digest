@@ -30,11 +30,5 @@
 - [глубокое погружение](https://proglib.io/p/js-async-await/)
 
 
-<<<<<<< HEAD
 ### TypeScript
 - [TypeScript. Магия выражений - очень интересно и сложно](https://habr.com/ru/post/465267/)
-
-
-=======
->>>>>>> 16fc76b592015d582ff357027683c54368f302fe
-
