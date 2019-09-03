@@ -12,3 +12,8 @@
 ### Nginx and tricks
 - [**Раздаем файлы с Google Drive посредством nginx**](https://habr.com/ru/post/460685/)
 - [mobile | desktop](https://alvinalexander.com/technology/nginx-redirect-mobile-devices-users-mobile-website)
+
+### robots.txt and sitemap  
+Robots и Sitemap вешаются на каждый поддомен отдельно, при этом должно быть доступно из корня субдомена  
+- [руководство по заполнению robots.txt](https://tools.pixelplus.ru/news/advanced-robots-txt)
+- [Google Console link](https://search.google.com/search-console)
