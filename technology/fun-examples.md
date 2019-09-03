@@ -2,6 +2,7 @@
 
 ## Изображения и их загрузка  
 - [API IntersectionObserver и ленивая загрузка ](https://habr.com/ru/company/ruvds/blog/453586/)
+- [native-lazy-loading](https://web.dev/native-lazy-loading)
 
 ## JS updates (decorators and etc)
 - [Сверхпростое логгирование в Javascript ](https://habr.com/ru/post/447970/)
