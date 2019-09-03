@@ -15,6 +15,7 @@
 ## MAILS  
 - [MAILS в GMAIL](https://developers.google.com/gmail/design/css) 
 - [Конструктор Google для вёрстки писем](https://designmodo.com/amp-emails/)
+- [Почта на своём домене](https://pro-wordpress.ru/servisy-i-programmy/pochta-so-svoim-domenom-yandeks-i-gmail.php)
 
 ## Security  
 - [Советы для Front-end](https://habr.com/ru/post/445932/)
