@@ -12,6 +12,7 @@
 ### Nginx and tricks
 - [**Раздаем файлы с Google Drive посредством nginx**](https://habr.com/ru/post/460685/)
 - [mobile | desktop](https://alvinalexander.com/technology/nginx-redirect-mobile-devices-users-mobile-website)
+- [Недоступные proxy_pass - решение через переменные](https://sandro-keil.de/blog/let-nginx-start-if-upstream-host-is-unavailable-or-down/)
 
 ### robots.txt and sitemap  
 Robots и Sitemap вешаются на каждый поддомен отдельно, при этом должно быть доступно из корня субдомена  
