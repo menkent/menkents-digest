@@ -4,7 +4,7 @@
 ## Nginx Settings
 
 ### Nginx static data
-- __ 
+- [index - особенности работы](http://nginx.org/ru/docs/http/ngx_http_index_module.html#index)
 
 ### Nginx proxy
 - [docker-compose | Setting up a Reverse-Proxy](https://dev.to/domysee/setting-up-a-reverse-proxy-with-nginx-and-docker-compose-29jg)
