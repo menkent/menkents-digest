@@ -53,7 +53,9 @@
 	- [Build PWA](https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020)
 	- [**Modern Web App**](https://habr.com/ru/post/432368/)
 
-- [Внедрение зависимостей](https://habr.com/ru/post/429342/)
+- Внедрение зависимостей  
+	- [Внедрение зависимостей](https://habr.com/ru/post/429342/)
+	- [Как можно внедрить Enviroment в разные части проекта](https://codeburst.io/angular-dependency-injection-tips-ddb24b8244be)
 
 - Reactive Forms  
 	- [**Say Goodbye to Angular Template-Driven**](https://netbasal.com/why-its-time-to-say-goodbye-to-angular-template-driven-forms-350c11d004b)
@@ -147,3 +149,5 @@
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
 
+## Angular and Bit
+- [**Sharing Components with Angular and Bit**](https://blog.bitsrc.io/sharing-components-with-angular-and-bit-b68896806c18)
