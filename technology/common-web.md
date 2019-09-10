@@ -58,6 +58,7 @@
 
 ## GraphQL  
 - [Start](https://levelup.gitconnected.com/getting-started-with-graphql-its-pretty-easy-3ea803426298)
+- [Angular + GraphQL](https://blog.angularindepth.com/configuring-a-angular-cli-project-with-graphql-37217f66d419)
 
 
 ## MongoDB
