@@ -133,6 +133,7 @@
 
 ## Angular-Examples
 - [Создание адаптивного хеадера с менюшкой + анимация](https://medium.com/fafnur/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-angular-c-redux-%D0%B8-nx-2da5e0b8e3e8)
+- [Создание красивых и понятных сообщений об ошибках](https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5)
 
 
 ## 6 Angular Material (Angular Components)
