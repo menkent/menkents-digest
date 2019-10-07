@@ -1,6 +1,9 @@
 
 # DevOps  
 
+## Kubernates / K8s 
+- [Быстрое введение в кубер](https://eax.me/kubernetes/)
+
 
 ## DevOps Статьи  
 - [**ТОП-10 самых полезных DevOps тенденций 2019 года**](https://proglib.io/p/devops-trends-2019/)

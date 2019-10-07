@@ -65,6 +65,7 @@
 - Lazy Loading  
 	- [**Как работает LazyLoading в WebPack**](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
 	- [**Router Updates in 7.1 + порядок гвардов**](https://blog.angularindepth.com/new-in-angular-v7-1-updates-to-the-router-fd67d526ad05)
+	- [**Lazy Load Non-Routable Modules**](https://netbasal.com/the-need-for-speed-lazy-load-non-routable-modules-in-angular-30c8f1c33093)
 
 - Локализация
 	- [Мультиязычные приложения в Angular](https://habr.com/ru/post/446402/)

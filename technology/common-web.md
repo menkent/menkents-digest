@@ -69,3 +69,7 @@
 
 ## REGEX
 - [Руководство для чайников](https://github.com/ziishaned/learn-regex/blob/master/translations/README-ru.md)
+
+
+## Algorithms
+- [**Алгоритм распределённого консенсуса**](https://habr.com/ru/company/dodopizzaio/blog/469999/)
