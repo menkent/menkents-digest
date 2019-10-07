@@ -31,9 +31,14 @@ sudo certbot certonly --webroot --webroot-path ~/projects/nginx/src/ -d menkent.
 ```sudo certbot certonly --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
 2. Заходим в настройки хостинга и создаём там TXT Record  
 поддомен **_acme-challenge**   а значение такое, как попросит сам certbot
-3. Автоматическое обновление не сработало, поэтому поку обновил вручную: выключил всё, затем вызвал:  
-```sudo certbot certonly --dry-run --manual -d *.menkent.dev -d menkent.dev --server https://acme-v02.api.letsencrypt.org/directory```
-после этого выбрал пункт с сертботовским сервером и оно заработало. Нужно научиться делать автоматически.
+3. Автоматическое обновление пока не работает, поэтому вызываем так:  
+```bash
+# обновление сертификата через ТТХ запись
+sudo certbot certonly --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory -d *.menkent.dev -d menkent.dev
+
+# проверка, что запись применилась (осторожно, оно кешируется)
+nslookup -type=TXT _acme-challenge.menkent.dev
+```
 
 
 
