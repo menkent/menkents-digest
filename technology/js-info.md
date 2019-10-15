@@ -13,6 +13,7 @@
 - [**Сборка мусора в V8: как работает новый Orinoco GC**](https://habr.com/ru/company/badoo/blog/454930/)
 - [**Rendering Engine - модуль отображения браузера**](https://habr.com/ru/post/459814/)
 - [EventLoop в хроме](https://habr.com/ru/post/461401/)
+- [V8-Lite Optimization 12.09.2019](https://v8.dev/blog/v8-lite)
 
 ### JS Closure
 - [**Какой здесь this?**](https://habr.com/ru/post/452192/)
