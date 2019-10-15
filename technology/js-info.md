@@ -5,6 +5,7 @@
 ### JavaScript News
 - [Много про регулярки и приватные поля](https://habr.com/ru/company/ruvds/blog/464129/)
 - [**Про объекты и массивы, API Интернанационализации**](https://habr.com/ru/company/ruvds/blog/464131/)
+- [ES10 в 12 простых примерах](https://habr.com/ru/company/plarium/blog/471142/)
 
 ### JavaScript Engines
 - [**The Journey of JavaScript**](https://www.telerik.com/blogs/journey-of-javascript-downloading-scripts-to-execution-part-ii)
@@ -16,6 +17,8 @@
 ### JS Closure
 - [**Какой здесь this?**](https://habr.com/ru/post/452192/)
 - [**let и замыкания**](https://habr.com/ru/post/462971/)
+    - [**Зависимость производительности от контекста выполнения - продолжение статьи**](https://habr.com/ru/post/469523/)
+
 
 ### JavaScript Objects and Arrays
 - https://habr.com/ru/company/ruvds/blog/438794/
@@ -29,6 +32,11 @@
 - [средний уровень](https://habr.com/ru/post/462355/)
 - [глубокое погружение](https://proglib.io/p/js-async-await/)
 
+### Нативные компоненты
+- [Доступность нативных компонент, drag and drop](https://habr.com/ru/company/oleg-bunin/blog/468541/)
 
 ### TypeScript
 - [TypeScript. Магия выражений - очень интересно и сложно](https://habr.com/ru/post/465267/)
+- [**Npm and TypeScript**](https://medium.com/@freek_mencke/how-to-write-node-js-applications-in-typescript-a54af696f66)
+- [Дженерики в TypeScript: разбираемся вместе / Просто способ передавать типы в функцию](https://habr.com/ru/post/455473/)
+- [**Мощь never - вдумчиво прочитать, очень сложная и интересная статья**](https://habr.com/ru/post/471026/)

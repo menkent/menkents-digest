@@ -7,6 +7,9 @@
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
 - Что нужно знать по Angular: [habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
 
+### Angular Video
+- [**How Angular works - чтоб глубоко понять**](https://youtu.be/S0o-4yc2n-8)
+- [**Building with Ivy: Как можно отказаться от Zone.js в пользу реактивщины**](https://youtu.be/rz-rcaGXhGk)
 
 ## 1 Angular
 - Change Detection Strategy
@@ -52,6 +55,7 @@
 	- [**PRPL pattern**](https://itnext.io/the-prpl-pattern-for-progressive-web-applications-using-angular-6-f7237b7dc2a7)
 	- [Build PWA](https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020)
 	- [**Modern Web App**](https://habr.com/ru/post/432368/)
+	- [**PWA with vanilla-javascript**](https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a)
 
 - Внедрение зависимостей  
 	- [Внедрение зависимостей](https://habr.com/ru/post/429342/)
@@ -135,6 +139,7 @@
 ## Angular-Examples
 - [Создание адаптивного хеадера с менюшкой + анимация](https://medium.com/fafnur/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-angular-c-redux-%D0%B8-nx-2da5e0b8e3e8)
 - [Создание красивых и понятных сообщений об ошибках](https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5)
+- [Взаимодействие между компонентами Angular с использованием RxJS](https://habr.com/ru/post/471100/)
 
 
 ## 6 Angular Material (Angular Components)

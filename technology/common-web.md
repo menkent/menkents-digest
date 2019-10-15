@@ -38,12 +38,6 @@
 - [Отладка Angular CLI приложения в VSCode с помощью Browser Preview](https://habr.com/ru/company/iponweb/blog/443574/)
 
 
-## TypeScript
-- [**Npm and TypeScript**](https://medium.com/@freek_mencke/how-to-write-node-js-applications-in-typescript-a54af696f66)
-- [Дженерики в TypeScript: разбираемся вместе / Просто способ передавать типы в функцию](https://habr.com/ru/post/455473/)
-
-
-
 ## Python 
 - __
 
