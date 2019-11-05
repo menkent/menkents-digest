@@ -103,6 +103,13 @@
 
 - Когда глючит ngFor:
 	- [trackBy - оптимизация](https://netbasal.com/angular-2-improve-performance-with-trackby-cc147b5104e5)
+
+- [Тут всякие приёмчики](https://www.newline.co/@kievsash/mastering-angular-8:-five-things-that-are-good-to-know-to-save-your-time.--6302e8aa)
+	- Как делать редиректы между компонентами без потери QueryParams
+	- Как делать редирект на такой же роут (обновить или реаинициалилизировать роут - похоже на костыль)
+	- Почему нельзя импортировать важные модули много раз
+	- Как подсветить только часть нужного текста в пару строк  -  ::ng-deep CSS директива
+
 		
 
 ## 3 RxJS
