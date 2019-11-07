@@ -35,17 +35,16 @@
 - LifeCycles
 	- [**OnInit**](https://ultimatecourses.com/blog/exploring-angular-lifecycle-hooks-oninit)
 
-- Работа с Validators и Формами и NG-Group
-	- [Custom form control](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
+- Работа с Validators и Формами и NG-Group + Data Binding
+	- [Зачем нужны NG_VALIDATORS и NG_VALUE_ACCESSOR + сам компонент валидатор](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
 	- [Добавление валидаторов к компоненту внутри директивы](https://blog.angularindepth.com/a-little-trick-with-angular-forms-and-directives-137e2c53f25)
 	- [Как работают формы](https://blog.thoughtram.io/angular/2016/03/21/template-driven-forms-in-angular-2.html)
-	
-- Data Binding
+	- [Мульти-провайдеры](https://blog.thoughtram.io/angular2/2015/11/23/multi-providers-in-angular-2.html)
 	- [Двустороннее связывание Angular](https://habr.com/ru/post/453696/)
 	- [Understanding Data Binding](https://blog.bitsrc.io/data-binding-in-angular-cbc433481cec)
 	- **ngModelGroup** в компонентах и **ControlValueAccessor**:
 		- [ ngModelGroup ]="name", а в компоненте: viewProviders: [{ provide: ControlContainer, useExisting: NgForm }],
-		- [**ControlValueAccessor**](https://habr.com/ru/company/tinkoff/blog/443714/)
+		- [**ControlValueAccessor + contenteditable**](https://habr.com/ru/company/tinkoff/blog/443714/)
 
 - Pipes and Async Pipes
 	- [**Async Pipe Deep**](https://medium.com/better-programming/angular-rxjs-async-pipe-deep-dive-2510b56f793a)
@@ -148,6 +147,7 @@
 - [Создание адаптивного хеадера с менюшкой + анимация](https://medium.com/fafnur/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-angular-c-redux-%D0%B8-nx-2da5e0b8e3e8)
 - [Создание красивых и понятных сообщений об ошибках](https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5)
 - [Взаимодействие между компонентами Angular с использованием RxJS](https://habr.com/ru/post/471100/)
+- [Создаём свой Select](https://medium.com/@maks.zhitlov/custom-form-controls-in-angular-4c69a94d5de6)
 
 
 ## 6 Angular Material (Angular Components)
