@@ -41,3 +41,6 @@
 - [**Npm and TypeScript**](https://medium.com/@freek_mencke/how-to-write-node-js-applications-in-typescript-a54af696f66)
 - [Дженерики в TypeScript: разбираемся вместе / Просто способ передавать типы в функцию](https://habr.com/ru/post/455473/)
 - [**Мощь never - вдумчиво прочитать, очень сложная и интересная статья**](https://habr.com/ru/post/471026/)
+
+### JS - Функциональное программирование
+- [Каррирование, Композиция и не полное выполнение](https://habr.com/ru/post/475324/)
