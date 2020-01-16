@@ -13,7 +13,7 @@
 ## CSS Examples  
 - [Movin' Modals Along a Path](https://css-tricks.com/movin-modals-along-a-path/)
 - [**Curved Path**](https://css-tricks.com/moving-text-on-a-curved-path/)
-- [*Glitch Text*](https://blog.prototypr.io/css-glitchy-text-reveal-in-3-minutes-7fa00732f1ea)
+- [**Glitch Text**](https://blog.prototypr.io/css-glitchy-text-reveal-in-3-minutes-7fa00732f1ea)
 
 ## Telegram 
 - [Telegram в качестве хранилища данных - забавная статья](https://habr.com/ru/post/464865/)

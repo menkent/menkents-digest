@@ -21,19 +21,19 @@
 	- [Максимально глубоко](https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930)
 	- [Ошибки при несоблюдении стратегий (на самом деле когда дочерние компоненты меняют родительские)](https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4)
 	- [Стратегия Change-Detection в 2019 году](https://blog.angularindepth.com/how-in-depth-knowledge-of-change-detection-helped-me-improve-applications-performance-daa04cd56ed6)
-	- [*Понятное описание с правильным применением markForCheck*](https://blog.ninja-squad.com/2018/09/27/angular-performances-part-4/)
+	- [**Понятное описание с правильным применением markForCheck**](https://blog.ninja-squad.com/2018/09/27/angular-performances-part-4/)
 
 - Зоны и runOutsideAngular Example (внизу пример)
 	- [zone.js без ангуляр](https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html)
 	- [Running code outside Angular’s zone](https://blog.thoughtram.io/angular/2016/02/01/zones-in-angular-2.html#ngzone-in-angular)
-	- [*Angular Without Zone*](https://m.habr.com/ru/company/ruvds/blog/476956/)
+	- [**Angular Without Zone**](https://m.habr.com/ru/company/ruvds/blog/476956/)
 
 - ng-content, ViewChildren, ContentChildren
 	- [Understanding ViewChildren, ContentChildren, and QueryList](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
 	- [Подробнее](https://medium.com/@tkssharma/understanding-viewchildren-viewchild-contentchildren-and-contentchild-b16c9e0358e)
 
 - Ng-Template, Ng-TemplateOutlet
-	- [*Хорошие и понятные примеры*](https://habr.com/ru/post/478886/)
+	- [**Хорошие и понятные примеры**](https://habr.com/ru/post/478886/)
 
 - Angular Events
 	- [написание своих обработчиков эвентов](https://habr.com/ru/company/tinkoff/blog/429692/)
@@ -52,7 +52,7 @@
 		- [ ngModelGroup ]="name", а в компоненте: viewProviders: [{ provide: ControlContainer, useExisting: NgForm }],
 		- [**ControlValueAccessor + contenteditable**](https://habr.com/ru/company/tinkoff/blog/443714/)
 	- [Custom Validators Example](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html)
-	- [*Material + Custom FormControl*](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)
+	- [**Material + Custom FormControl**](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)
 
 - Pipes and Async Pipes
 	- [**Async Pipe Deep**](https://medium.com/better-programming/angular-rxjs-async-pipe-deep-dive-2510b56f793a)
@@ -179,8 +179,8 @@
 - [**Bootstrapping multiple Angular 2 applications on the same page**](https://blog.sstorie.com/bootstrapping-multiple-angular-2-applications-on-the-same-page/)
 	- [github](https://github.com/sstorie/experiments/blob/master/angular2-multiple-applications/index.html)
 - [**Multiapps on ONE project**](https://github.com/angular/angular-cli/wiki/stories-multiple-apps)
-- [*Macro-Frontend*](https://www.softwarearchitekt.at/aktuelles/6-steps-to-your-angular-based-microfrontend-shell/)
-- [*Примеры библиотек на русском*](https://dou.ua/lenta/articles/micro-frontend/)
+- [**Macro-Frontend**](https://www.softwarearchitekt.at/aktuelles/6-steps-to-your-angular-based-microfrontend-shell/)
+- [**Примеры библиотек на русском**](https://dou.ua/lenta/articles/micro-frontend/)
 
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)

@@ -17,7 +17,7 @@
 - [Таски и микротаски](https://habr.com/ru/post/264993/)
 
 ### JS Common
-- [*Types Funs*](https://dmitripavlutin.com/javascript-type-checking-screwed/)
+- [**Types Funs**](https://dmitripavlutin.com/javascript-type-checking-screwed/)
 - [Use Strict - строгий режим и его особенности](https://m.habr.com/ru/company/ruvds/blog/477284/)
 
 ### Events
