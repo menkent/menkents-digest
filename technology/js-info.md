@@ -14,6 +14,17 @@
 - [**Rendering Engine - модуль отображения браузера**](https://habr.com/ru/post/459814/)
 - [EventLoop в хроме](https://habr.com/ru/post/461401/)
 - [V8-Lite Optimization 12.09.2019](https://v8.dev/blog/v8-lite)
+- [Таски и микротаски](https://habr.com/ru/post/264993/)
+
+### JS Common
+- [*Types Funs*](https://dmitripavlutin.com/javascript-type-checking-screwed/)
+- [Use Strict - строгий режим и его особенности](https://m.habr.com/ru/company/ruvds/blog/477284/)
+
+### Events
+- [**Жизненный цикл события**](https://medium.com/prod-io/javascript-understanding-dom-event-life-cycle-49e1cf62b2ea)
+    - Параметр capture у метода addEventListener позволяет схватить эвент пока он спускается вниз по дереву
+    - Event.stopImmediatePropagation() - позволяет остановить как опускание эвента, так и его всплытие
+    - Event.stopPropagation() - тоже запрещает поднятие и погружение, но на том же уровне дерева - разрешает
 
 ### JS Closure
 - [**Какой здесь this?**](https://habr.com/ru/post/452192/)

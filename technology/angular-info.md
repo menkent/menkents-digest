@@ -6,6 +6,7 @@
 - [**Разговоры про трудоустройство**](https://medium.com/@michelestieven/angular-recurring-problems-i-face-as-a-front-end-consultant-d2a9c1826a3a)
 - [**Организация ANGULAR приложения**](https://frontend.consulting/building-an-enterprise-grade-angular-project-structure)
 - Что нужно знать по Angular: [habr](https://habr.com/ru/company/alconost/blog/455906/)  [оригинал](https://medium.com/better-programming/19-things-you-need-to-learn-to-become-an-effective-angular-developer-c0ccfa51222a)
+- [Как правильно подключать environment](https://habr.com/ru/post/477214/)
 
 ### Angular Video
 - [**How Angular works - чтоб глубоко понять**](https://youtu.be/S0o-4yc2n-8)
@@ -20,14 +21,19 @@
 	- [Максимально глубоко](https://blog.angularindepth.com/these-5-articles-will-make-you-an-angular-change-detection-expert-ed530d28930)
 	- [Ошибки при несоблюдении стратегий (на самом деле когда дочерние компоненты меняют родительские)](https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4)
 	- [Стратегия Change-Detection в 2019 году](https://blog.angularindepth.com/how-in-depth-knowledge-of-change-detection-helped-me-improve-applications-performance-daa04cd56ed6)
+	- [*Понятное описание с правильным применением markForCheck*](https://blog.ninja-squad.com/2018/09/27/angular-performances-part-4/)
 
 - Зоны и runOutsideAngular Example (внизу пример)
 	- [zone.js без ангуляр](https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html)
 	- [Running code outside Angular’s zone](https://blog.thoughtram.io/angular/2016/02/01/zones-in-angular-2.html#ngzone-in-angular)
+	- [*Angular Without Zone*](https://m.habr.com/ru/company/ruvds/blog/476956/)
 
 - ng-content, ViewChildren, ContentChildren
 	- [Understanding ViewChildren, ContentChildren, and QueryList](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
 	- [Подробнее](https://medium.com/@tkssharma/understanding-viewchildren-viewchild-contentchildren-and-contentchild-b16c9e0358e)
+
+- Ng-Template, Ng-TemplateOutlet
+	- [*Хорошие и понятные примеры*](https://habr.com/ru/post/478886/)
 
 - Angular Events
 	- [написание своих обработчиков эвентов](https://habr.com/ru/company/tinkoff/blog/429692/)
@@ -45,6 +51,8 @@
 	- **ngModelGroup** в компонентах и **ControlValueAccessor**:
 		- [ ngModelGroup ]="name", а в компоненте: viewProviders: [{ provide: ControlContainer, useExisting: NgForm }],
 		- [**ControlValueAccessor + contenteditable**](https://habr.com/ru/company/tinkoff/blog/443714/)
+	- [Custom Validators Example](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html)
+	- [*Material + Custom FormControl*](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)
 
 - Pipes and Async Pipes
 	- [**Async Pipe Deep**](https://medium.com/better-programming/angular-rxjs-async-pipe-deep-dive-2510b56f793a)
@@ -83,10 +91,8 @@
 - Angular 6
 	- Library for Angular
 		- [Как создавать библиотеки](https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11)
-
 	- WorkSpaces
 		- [Test-Drive](https://medium.com/@angularlicious/angular-6-workspace-test-drive-cfe24bbceeb3)
-
 	- **CLI Builders**  
 		- [Оригинал](https://blog.angular.io/introducing-cli-builders-d012d4489f1b)  [Перевод](https://habr.com/ru/post/450746/)
 
@@ -94,6 +100,8 @@
 	- [Обзор](https://medium.com/webbdev/angular-4c42d86eaa62)
 	- [Что нового в Angular 8](https://habr.com/ru/post/455493/)
 	- [Миграция до 8 ангуляра](https://www.techiediaries.com/updating-angular-cli-projects/)
+- Angular 9
+	- empty
 
 
 ## 2 Angular Optimization 
@@ -113,6 +121,11 @@
 		
 
 ## 3 RxJS
+- [Разница между типами Subjects](https://levelup.gitconnected.com/rxjs-subjects-explained-with-examples-78ae7b9edfc)
+    - Subject - просто сабджект как Observable
+	- BehaviorSubject - при подписи сразу отдаст текущее значение
+	- ReplaySubject - будет всем подписчикам отправлять всю свою историю next
+	- AsyncSubject - отдаст последнее значение при комплете.
 - retryWhen and pipe:
 	- [**Understanding Lettable Operators**](https://blog.angularindepth.com/rxjs-understanding-lettable-operators-fe74dda186d3)
 	- [**retryWhen**](https://www.learnrxjs.io/operators/error_handling/retrywhen.html)
@@ -130,6 +143,7 @@
 
 
 ## 4 NGRX:  
+- [Angular/NGRX — ясное и чёткое введение](https://medium.com/ngx/angular-ngrx-ясное-и-чёткое-введение-bdf1c97f44b2)
 - [Реактивные приложения на Angular/NGRX. Часть 2. Store](https://medium.com/@demyanyuk/%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-angular-ngrx-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-1412bc9adf17)
 - [Реактивные приложения на Angular/NGRX. Часть 3. Effects.](https://medium.com/@demyanyuk/%D1%80%D0%B5%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-angular-ngrx-%D1%87%D0%B0%D1%81%D1%82%D1%8C-3-effects-6f4b34dfa289)
 - [NgRx Store: архитектура для Angular приложений](https://golosay.net/ngrx-store-architecture/)
@@ -138,28 +152,35 @@
 - [Redux, Angular Style: ngrx/store](https://blog.usejournal.com/redux-angular-style-ngrx-store-b2876280708e)
 
 
-## Angular Animation
+## 5 Angular Testing
+- [Введение в тесты, на самом деле более менее достаточно](https://habr.com/ru/post/349380/)
+- [Jasmine+Karma Examples: Test Form and Test Component](https://medium.com/frontend-fun/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4)
+
+
+## 6 Angular Animation
 - [**Angular Animation**](https://medium.com/@GrandSchtroumpf/a-journey-into-angular-animation-f3360739c705)
 - [Простой пример анимации через Canvas](https://blog.angularindepth.com/how-to-get-started-with-canvas-animations-in-angular-2f797257e5b4)
 
 
-## Angular-Examples
+## 7 Angular-Examples
 - [Создание адаптивного хеадера с менюшкой + анимация](https://medium.com/fafnur/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-%D0%B2-angular-c-redux-%D0%B8-nx-2da5e0b8e3e8)
 - [Создание красивых и понятных сообщений об ошибках](https://netbasal.com/make-your-angular-forms-error-messages-magically-appear-1e32350b7fa5)
 - [Взаимодействие между компонентами Angular с использованием RxJS](https://habr.com/ru/post/471100/)
 - [Создаём свой Select](https://medium.com/@maks.zhitlov/custom-form-controls-in-angular-4c69a94d5de6)
 
 
-## 6 Angular Material (Angular Components)
+## 8 Angular Material (Angular Components)
 - [typography](https://material.angular.io/guide/typography)
 - [components](https://material.angular.io/components/categories)
 - [icons](https://material.io/tools/icons/?icon=check&style=baseline)  
 
 
-## 7 Multi Apps
+## 9 Multi Apps
 - [**Bootstrapping multiple Angular 2 applications on the same page**](https://blog.sstorie.com/bootstrapping-multiple-angular-2-applications-on-the-same-page/)
 	- [github](https://github.com/sstorie/experiments/blob/master/angular2-multiple-applications/index.html)
 - [**Multiapps on ONE project**](https://github.com/angular/angular-cli/wiki/stories-multiple-apps)
+- [*Macro-Frontend*](https://www.softwarearchitekt.at/aktuelles/6-steps-to-your-angular-based-microfrontend-shell/)
+- [*Примеры библиотек на русском*](https://dou.ua/lenta/articles/micro-frontend/)
 
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
