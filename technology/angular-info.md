@@ -87,6 +87,8 @@
 - Новый движок рендера Ivy 
 	- [**Вводная**](https://blog.angularindepth.com/all-you-need-to-know-about-ivy-the-new-angular-engine-9cde471f42cf)
 	- [**Асинхронные модули и Компоненты для Ivy**](https://blog.angularindepth.com/asynchronous-modules-and-components-in-angular-ivy-1c1d79d45bd3)
+	- [Lazy-Load  for Component](https://habr.com/ru/company/ruvds/blog/484618/)
+	  -  но лучше так не делать, проще через lazy-module сделать
 
 - Angular 6
 	- Library for Angular
