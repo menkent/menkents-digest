@@ -174,7 +174,8 @@
 ## 8 Angular Material (Angular Components)
 - [typography](https://material.angular.io/guide/typography)
 - [components](https://material.angular.io/components/categories)
-- [icons](https://material.io/tools/icons/?icon=check&style=baseline)  
+- [icons](https://material.io/tools/icons/?icon=check&style=baseline) 
+- [Virtual Scroll - VIRTUAL_SCROLL_STRATEGY](https://habr.com/ru/company/tinkoff/blog/484168/) 
 
 
 ## 9 Multi Apps
