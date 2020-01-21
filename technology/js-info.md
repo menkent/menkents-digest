@@ -19,6 +19,7 @@
 ### JS Common
 - [**Types Funs**](https://dmitripavlutin.com/javascript-type-checking-screwed/)
 - [Use Strict - строгий режим и его особенности](https://m.habr.com/ru/company/ruvds/blog/477284/)
+- [Promises best practice](https://habr.com/ru/post/484466/)
 
 ### Events
 - [**Жизненный цикл события**](https://medium.com/prod-io/javascript-understanding-dom-event-life-cycle-49e1cf62b2ea)

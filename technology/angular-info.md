@@ -187,3 +187,6 @@
 
 ## Angular and Bit
 - [**Sharing Components with Angular and Bit**](https://blog.bitsrc.io/sharing-components-with-angular-and-bit-b68896806c18)
+
+## Angular and IE11
+- [Просто включение в npm поддержки ие11](https://dev.to/coly010/angular-how-to-support-ie11-4924)
