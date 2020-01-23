@@ -8,6 +8,7 @@
 - [ES10 в 12 простых примерах](https://habr.com/ru/company/plarium/blog/471142/)
 
 ### JavaScript Engines
+- [Как работают браузеры - просто и понятно](https://habr.com/ru/post/484900/)
 - [**The Journey of JavaScript**](https://www.telerik.com/blogs/journey-of-javascript-downloading-scripts-to-execution-part-ii)
 - [**JavaScript-движки: как они работают? От стека вызовов до промисов**](https://habr.com/ru/company/mailru/blog/452906/)
 - [**Сборка мусора в V8: как работает новый Orinoco GC**](https://habr.com/ru/company/badoo/blog/454930/)

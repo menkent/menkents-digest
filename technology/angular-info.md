@@ -184,6 +184,7 @@
 - [**Multiapps on ONE project**](https://github.com/angular/angular-cli/wiki/stories-multiple-apps)
 - [**Macro-Frontend**](https://www.softwarearchitekt.at/aktuelles/6-steps-to-your-angular-based-microfrontend-shell/)
 - [**Примеры библиотек на русском**](https://dou.ua/lenta/articles/micro-frontend/)
+- [**Angular App as Web Component**](https://medium.com/@kitson.mac/wrapping-an-angular-app-in-a-custom-element-web-component-angular-element-in-4-simple-steps-ded3554e9006)
 
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
