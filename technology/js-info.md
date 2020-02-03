@@ -6,6 +6,7 @@
 - [Много про регулярки и приватные поля](https://habr.com/ru/company/ruvds/blog/464129/)
 - [**Про объекты и массивы, API Интернанационализации**](https://habr.com/ru/company/ruvds/blog/464131/)
 - [ES10 в 12 простых примерах](https://habr.com/ru/company/plarium/blog/471142/)
+- [Тренды 2020](https://habr.com/ru/post/485768/)
 
 ### JavaScript Engines
 - [Как работают браузеры - просто и понятно](https://habr.com/ru/post/484900/)
