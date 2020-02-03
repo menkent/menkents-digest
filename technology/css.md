@@ -27,3 +27,7 @@
 
 # Sass/SCSS
 - [Развёрнутое руководство по Sass/SCSS](https://tproger.ru/translations/complete-sass-guide/)
+
+# CSS-HOUDINI.org  
+Новый стандарт, который позволяет иначе работать с CSS
+- Например есть [Paint api](https://drafts.css-houdini.org/css-paint-api/), позволяющий почти рисовать на CSS
