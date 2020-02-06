@@ -193,7 +193,8 @@
 ## Angular - библиотеки в помощь
 - [обзор](https://www.telerik.com/blogs/17-angular-libraries-you-should-know-about)
 
-## Angular and Bit
+## Angular and Bit (Web Components)
+- [Web Components - how crate and use](https://medium.com/@tomsu/building-web-components-with-angular-elements-746cd2a38d5b)
 - [**Sharing Components with Angular and Bit**](https://blog.bitsrc.io/sharing-components-with-angular-and-bit-b68896806c18)
 
 ## Angular and IE11
