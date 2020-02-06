@@ -38,6 +38,10 @@
 - Angular Events
 	- [написание своих обработчиков эвентов](https://habr.com/ru/company/tinkoff/blog/429692/)
 
+- CSS Styles + ViewEncapsulation (это связано напрямую с Shadow DOM и куда положатся стили и почему)
+	- [Как применяются стили](https://blog.thoughtram.io/angular/2015/06/25/styling-angular-2-components.html)
+	- [На что влияет ViewEncapsulation](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+
 - LifeCycles
 	- [**OnInit**](https://ultimatecourses.com/blog/exploring-angular-lifecycle-hooks-oninit)
 
