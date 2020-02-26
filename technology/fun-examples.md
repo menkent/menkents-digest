@@ -24,3 +24,6 @@
 
 ## ScrollBars
 - [варианты реализации скролла](https://habr.com/ru/company/ruvds/blog/468405/)
+
+## Пример с Overlay И подсказками (как сделать гайд)
+- [--](https://habr.com/ru/post/486920/)
