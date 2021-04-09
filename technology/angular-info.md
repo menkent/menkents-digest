@@ -58,6 +58,12 @@
 	- [Custom Validators Example](https://blog.thoughtram.io/angular/2016/03/14/custom-validators-in-angular-2.html)
 	- [**Material + Custom FormControl**](https://itnext.io/creating-a-custom-form-field-control-compatible-with-reactive-forms-and-angular-material-cf195905b451)
 
+- Reactive Forms  
+	- [**Say Goodbye to Angular Template-Driven**](https://netbasal.com/why-its-time-to-say-goodbye-to-angular-template-driven-forms-350c11d004b)
+	- [**Реактивные формы с компонентами**](https://itnext.io/partial-reactive-form-with-angular-components-443ca06d8419)
+		- [Понятный пример](https://stackblitz.com/edit/monolithic-reactive-form?file=app%2Fapp.component.html)
+	- [Пример реактивной сабформы](https://medium.com/@tomastrajan/angular-reactive-sub-forms-type-safe-without-duplication-dbd24225e1e8)
+
 - Pipes and Async Pipes
 	- [**Async Pipe Deep**](https://medium.com/better-programming/angular-rxjs-async-pipe-deep-dive-2510b56f793a)
 	- [**Async Pipe Deep Dive** - почему это плохо и как оно в реальности работает](https://medium.com/@erxk_verduin/angular-rxjs-async-pipe-deep-dive-2510b56f793a)
@@ -72,11 +78,6 @@
 - Внедрение зависимостей  
 	- [Внедрение зависимостей](https://habr.com/ru/post/429342/)
 	- [Как можно внедрить Enviroment в разные части проекта](https://codeburst.io/angular-dependency-injection-tips-ddb24b8244be)
-
-- Reactive Forms  
-	- [**Say Goodbye to Angular Template-Driven**](https://netbasal.com/why-its-time-to-say-goodbye-to-angular-template-driven-forms-350c11d004b)
-	- [**Реактивные формы с компонентами**](https://itnext.io/partial-reactive-form-with-angular-components-443ca06d8419)
-		- [Понятный пример](https://stackblitz.com/edit/monolithic-reactive-form?file=app%2Fapp.component.html)
 
 - Lazy Loading  
 	- [**Как работает LazyLoading в WebPack**](https://ultimatecourses.com/blog/lazy-loading-angular-code-splitting-webpack)
