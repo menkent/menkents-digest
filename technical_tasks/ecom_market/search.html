@@ -465,8 +465,8 @@ In the midst of a conversation on political matters Anna Pavlovna burst out:
             }
 
             const renderContent = (orderNumber, content) => {
-                const div = document.getElementById("resultContent");
-                elements = div.getElementsByClassName('text');
+                const resultDiv = document.getElementById("resultContent");
+                elements = resultDiv.getElementsByClassName('text');
                 if (elements[orderNumber]) {
                     elements[orderNumber].innerText = content;
                 }
@@ -482,6 +482,7 @@ In the midst of a conversation on political matters Anna Pavlovna burst out:
                 fieldset.disabled = true;
 
             };
+        
             const unlockForm = () => {
                 const fieldset = form.getElementsByTagName('fieldset')?.[0];
                 fieldset.disabled = false;
