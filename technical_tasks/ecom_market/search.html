@@ -1,0 +1,533 @@
+<html>
+    <head>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <!-- CSS -->
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+            }
+
+            /* header  */
+            header {
+                padding-top: 0.625rem;
+                padding-bottom: 0.625rem;
+            }
+
+            .border-bottom {
+                border-bottom: 1px solid #8080804f;
+            }
+
+            .container {
+                flex: 1 0 auto;
+            }
+
+            .content-wraper {
+                position: relative;
+                display: flex;
+                margin: auto;
+                max-width: 1000px;
+                min-width: 320px;
+                padding: 0 0.4rem 0 0.4rem;
+            }
+
+            header .content-wraper {
+                display: flex;
+                align-items: center;
+            }
+
+            .menu-item {
+                margin-right: 30px;
+                cursor: pointer;
+                font-size: 18px;
+            }
+
+            .menu-login-signup {
+                margin-left: auto;
+                text-transform: uppercase;
+            }
+
+            /* content */
+            .search-wrapper {
+                height: 80px;
+                width: 100%;
+                margin: 0;
+            }
+
+            .search-wrapper fieldset {
+                width: 100%;
+                height: 100%;
+                border: none;
+                display: flex;
+                padding: 0;
+                margin: 0;
+                align-items: center;
+            }
+
+            /* material inputs */
+            input 				{
+                padding: 5px 5px 5px 5px;
+                display: block;
+                width: 80%;
+                border: none;
+                border-bottom: 1px solid #E5E5E5;
+            }
+
+            input:focus { outline: none; }
+
+            /* label */
+            label 				 {
+                color: #888888; 
+                position: absolute;
+                pointer-events: none;
+                left: 5px;
+                top: 5px;
+                transition: 0.2s ease all; 
+                -moz-transition: 0.2s ease all; 
+                -webkit-transition: 0.2s ease all;
+            }
+
+            /* active state for label */
+            input:focus ~ label, input:valid ~ label, input:disabled ~ label		{
+                top: -15px;
+                font-size: 12px;
+            }
+
+            /* button bars */
+            .bar { 
+                position: relative; 
+                display: block; 
+                width: 80%;
+            }
+            .bar:before, .bar:after 	{
+                content: '';
+                height: 2px; 
+                width: 0;
+                bottom: 1px; 
+                position: absolute;
+                background: #5DA9E0; 
+                transition: 0.2s ease all; 
+                -moz-transition: 0.2s ease all; 
+                -webkit-transition: 0.2s ease all;
+            }
+            .bar:before {
+              left: 50%;
+            }
+            .bar:after {
+                right: 50%; 
+            }
+
+            /* active state */
+            input:focus ~ .bar:before, input:focus ~ .bar:after {
+                width: 50%;
+            }
+
+            .search-wrapper button {
+                background-color: #5DA9E0;
+                border: none;
+                width: 100%;
+                height: 32px;
+                color: white;
+                cursor: pointer;
+            }
+
+            .search-wrapper button:disabled {
+                background-color: gray;
+            }
+
+            .input-wrapper {
+                position: relative;
+                width: 40%;
+                
+            }
+
+            .btn-wrapper {
+                position: relative;
+                width: 20%;
+                cursor: pointer;
+            }
+
+
+            .result-wrapper {
+                width: 100%;
+            }
+
+            .progress-bar {
+                font-weight: 700;
+                color: #5DA9E0;
+                text-align: center;
+                margin: 1.25rem 0;
+            }
+
+            .result-content {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+            }
+
+            .result-item {
+                width: 30%;
+                margin-bottom: 20px;
+            }
+
+            .result-item .caption {
+                font-weight: 700;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                margin-bottom: 10px;
+            }
+
+            /* footer  */
+            footer {
+                flex: 0 0 auto;
+                padding: 1.25rem 0 1.25rem 0;
+                border-top: 1px solid #8080804f;
+            }
+
+            footer ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            footer ul li {
+                margin-bottom: 0.625rem;
+                cursor: pointer;
+            } 
+
+            footer .list-caption {
+                font-weight: 700;
+                font-size: 18px;
+                margin-bottom: 1.25rem;
+            }
+
+            footer a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .footer-colomn {
+                width: 33.33%;
+            }
+
+            .copyright {
+                position: absolute;
+                bottom: 0;
+                right: 0.4rem;
+            }
+
+
+            @media screen and (max-width: 640px) {
+                .result-item {
+                    width: 100%;
+                }
+            }
+        </style>        
+    </head>
+    <body>
+        <header class="border-bottom">
+            <div class="content-wraper">
+                <div class="menu-item menu-logo">
+                    <a href="/" aria-label="Main Page" accesskey="1">
+                        <svg width="52" height="52" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#new_logo_vk_with_text__a)">
+                                <g clip-path="url(#new_logo_vk_with_text__b)">
+                                    <path d="M11.5 24h1c5.44 0 8.15 0 9.83-1.68C24 20.64 24 17.92 24 12.5v-1.02c0-5.4 0-8.12-1.67-9.8C20.65 0 17.93 0 12.5 0h-1C6.06 0 3.35 0 1.67 1.68 0 3.36 0 6.08 0 11.5v1.02c0 5.4 0 8.12 1.68 9.8C3.36 24 6.08 24 11.5 24z" fill="#07F"></path>
+                                    <path d="M12.77 17.29c-5.47 0-8.59-3.75-8.72-9.99h2.74c.09 4.58 2.11 6.52 3.71 6.92V7.3h2.58v3.95c1.58-.17 3.24-1.97 3.8-3.95h2.58a7.62 7.62 0 01-3.51 4.98 7.9 7.9 0 014.11 5.01h-2.84a4.94 4.94 0 00-4.14-3.57v3.57h-.31z" fill="#fff"></path>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="new_logo_vk_with_text__a">
+                                    <path fill="#fff" transform="translate(.001)" d="M0 0h136v24H0z"></path>
+                                </clipPath>
+                                <clipPath id="new_logo_vk_with_text__b">
+                                    <path fill="#fff" transform="translate(0 -12)" d="M0 0h136v48H0z"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="menu-item">Menu Item 1</div>
+                <div class="menu-item">Menu Item 2</div>
+                <div class="menu-item">Menu Item 3</div>
+                <div class="menu-item">Menu Item 4</div>
+                <div class="menu-item menu-login-signup">
+                    <a>Log In</a>
+                    / 
+                    <a>Sign Up</a>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="border-bottom">
+                <div class="content-wraper">
+                    <form id="searchForm" class="search-wrapper"> 
+                        <fieldset>
+                            <div class="input-wrapper">      
+                                <input type="number" name="length" min="1" max="9999" required>
+                                <span class="bar"></span>
+                                <label>Length</label>
+                            </div>
+                            <div class="input-wrapper">      
+                                <input type="number" name="limit" min="1" max="9999" required>
+                                <span class="bar"></span>
+                                <label>Limit</label>
+                            </div>
+                            <div class="btn-wrapper"><button type="submit">Start</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="content-wraper">
+                <div class="result-wrapper">
+                    <div class="progress-bar">Progress: <span id="progressCurrent">0</span> of <span id="progressFinal">0</span></div>
+                    <div id="resultContent" class="result-content"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="content-wraper">
+                <div class="footer-colomn">
+                    <div class="list-caption">Menu 1</div>
+                    <ul>
+                        <li>Menu Item1</li>
+                        <li>Menu Item2</li>
+                        <li>Menu Item3</li>
+                        <li>Menu Item4</li>
+                    </ul>
+                </div>
+                <div class="footer-colomn">
+                    <div class="list-caption">Menu 2</div>
+                    <ul>
+                        <li>Menu Item1</li>
+                        <li>Menu Item2</li>
+                        <li>Menu Item3</li>
+                        <li>Menu Item4</li>
+                    </ul>
+                </div>
+                <div class="footer-colomn">
+                    <div class="list-caption">Contacts</div>
+                    <ul>
+                        <li><a href="tel:11111111111">Phone</a></li>
+                        <li><a href="mailto:name@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="copyright"><b>&copy;Lev Tolstoy</b></div>
+            </div>
+        </footer>
+
+
+        <!-- JS -->
+        <script>
+            const contentText = `"Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes. But I warn you, if you don't tell me that this means war, if you still try to defend the infamies and horrors perpetrated by that Antichrist--I really believe he is Antichrist--I will have nothing more to do with you and you are no longer my friend, no longer my 'faithful slave,' as you call yourself! But how do you do? I see I have frightened you--sit down and tell me all the news."
+It was in July, 1805, and the speaker was the well-known Anna Pavlovna Scherer, maid of honor and favorite of the Empress Marya Fedorovna. With these words she greeted Prince Vasili Kuragin, a man of high rank and importance, who was the first to arrive at her reception. Anna Pavlovna had had a cough for some days. She was, as she said, suffering from la grippe; grippe being then a new word in St. Petersburg, used only by the elite.
+All her invitations without exception, written in French, and delivered by a scarlet-liveried footman that morning, ran as follows:
+"If you have nothing better to do, Count [or Prince], and if the prospect of spending an evening with a poor invalid is not too terrible, I shall be very charmed to see you tonight between 7 and 10--Annette Scherer."
+"Heavens! what a virulent attack!" replied the prince, not in the least disconcerted by this reception. He had just entered, wearing an embroidered court uniform, knee breeches, and shoes, and had stars on his breast and a serene expression on his flat face. He spoke in that refined French in which our grandfathers not only spoke but thought, and with the gentle, patronizing intonation natural to a man of importance who had grown old in society and at court. He went up to Anna Pavlovna, kissed her hand, presenting to her his bald, scented, and shining head, and complacently seated himself on the sofa.
+"First of all, dear friend, tell me how you are. Set your friend's mind at rest," said he without altering his tone, beneath the politeness and affected sympathy of which indifference and even irony could be discerned.
+"Can one be well while suffering morally? Can one be calm in times like these if one has any feeling?" said Anna Pavlovna. "You are staying the whole evening, I hope?"
+"And the fete at the English ambassador's? Today is Wednesday. I must put in an appearance there," said the prince. "My daughter is coming for me to take me there."
+"I thought today's fete had been canceled. I confess all these festivities and fireworks are becoming wearisome."
+"If they had known that you wished it, the entertainment would have been put off," said the prince, who, like a wound-up clock, by force of habit said things he did not even wish to be believed.
+"Don't tease! Well, and what has been decided about Novosiltsev's dispatch? You know everything."
+"What can one say about it?" replied the prince in a cold, listless tone. "What has been decided? They have decided that Buonaparte has burnt his boats, and I believe that we are ready to burn ours."
+Prince Vasili always spoke languidly, like an actor repeating a stale part. Anna Pavlovna
+Scherer on the contrary, despite her forty years, overflowed with animation and impulsiveness. To be an enthusiast had become her social vocation and, sometimes even when she did not feel like it, she became enthusiastic in order not to disappoint the expectations of those who knew her. The subdued smile which, though it did not suit her faded features, always played round her lips expressed, as in a spoiled child, a continual consciousness of her charming defect, which she neither wished, nor could, nor considered it necessary, to correct.
+In the midst of a conversation on political matters Anna Pavlovna burst out:
+"Oh, don't speak to me of Austria. Perhaps I don't understand things, but Austria never has wished, and does not wish, for war. She is betraying us! Russia alone must save Europe. Our gracious sovereign recognizes his high vocation and will be true to it. That is the one thing I have faith in! Our good and wonderful sovereign has to perform the noblest role on earth, and he is so virtuous and noble that God will not forsake him. He will fulfill his vocation and crush the hydra of revolution, which has become more terrible than ever in the person of this murderer and villain! We alone must avenge the blood of the just one.... Whom, I ask you, can we rely on?... England with her commercial spirit will not and cannot understand the Emperor Alexander's loftiness of soul. She has refused to evacuate Malta. She wanted to find, and still seeks, some secret motive in our actions. What answer did Novosiltsev get? None. The English have not understood and cannot understand the self-abnegation of our Emperor who wants nothing for himself, but only desires the good of mankind. And what have they promised? Nothing! And what little they have promised they will not perform! Prussia has always declared that Buonaparte is invincible, and that all Europe is powerless before him.... And I don't believe a word that Hardenburg says, or Haugwitz either. This famous Prussian neutrality is just a trap. I have faith only in God and the lofty destiny of our adored monarch. He will save Europe!"`;
+
+            const separateSenteces = (content) => {
+                let predSeparate = content.split('\n').map(a => a.replace('\"', ''));
+                let result = [];
+                predSeparate.forEach((text) => {
+                    const sentences = text.match(/\(?[^\.\?\!]+[\.!\?]\)?/g);
+                    if (sentences) {
+                        result = [...result, ...sentences.map(s => s.replace(/^\s+|\s+$/g, ""))];
+                    } else if (text.length) {
+                        result.push(text);
+                    } else {
+                        console.log('warning text::', text);
+                    }
+                });
+                return result;
+            }
+
+            const arrayOfSentences = separateSenteces(contentText);
+
+            const maxCaptionLenght = 200;
+            const minCaptionLenght = 10;
+
+            const generateRandomStr = (length) => {
+                var res = '';
+                let alphabet  = 'abcdefghijklmnopqrstuvwxyz';
+                alphabet = alphabet + alphabet.toUpperCase() + '0123456789';
+                var alphabetLength = alphabet.length;
+                while (res.length < length) {
+                    res += alphabet.charAt(Math.floor(Math.random() *  alphabetLength));
+                    // add space every ~15 symbols for best view
+                    if (res.length > 0 && res.length < length - 1 && Math.random() < 0.075) { // not first and last spaces
+                        res += ' ';
+                    }
+                }
+                return res;
+            }
+
+
+            class PromisesQueue {
+                constructor(promises, limit, resolve, endQueueCallback) {
+                    this.promises = promises;
+                    this.limit = limit;
+                    this.resolve = resolve;
+                    this.totalCount = 0;
+                    this.endQueueCallback = endQueueCallback;
+                }
+
+                startQueue() {
+                    this.totalCount = 0;
+                    for (let i = 0; i < Math.min(this.limit, this.promises.length); i++) {
+                        this.processItem();
+                    }
+                }
+
+                processItem() {
+                    const item = this.promises.shift();
+                    if (item) {
+                        item.then(() => {
+                            this.resolve(this.totalCount);
+                            this.totalCount++;
+                            this.processItem();
+                        });
+                    } else {
+                        this.endQueueCallback();
+                    }
+                }
+            }
+
+            class PromisesQueue2 {
+                constructor(tasks, limit, resolve, endQueueCallback) {
+                    this.tasks = tasks;
+                    this.limit = limit;
+                    this.resolve = resolve;
+                    this.endQueueCallback = endQueueCallback;
+                }
+
+                startQueue() {
+                    for (let i = 0; i < Math.min(this.limit, this.tasks.length); i++) {
+                        this.processTask();
+                    }
+                }
+
+                processTask() {
+                    const task = this.tasks.shift();
+                    if (task) {
+                        new Promise((resolve) => {
+                            setTimeout(() => resolve(task), Math.round(Math.random() * 9000) + 4000); 
+                        }).then((resolvedTask) => {
+                            this.resolve(resolvedTask.index);
+                            this.processTask();
+                        });
+                    } else {
+                        this.endQueueCallback();
+                    }
+                }
+            }
+
+            const renderProgressFinal = (value) => {
+                document.getElementById("progressFinal").innerText = value;
+            }
+
+            const renderProgress = (value) => {
+                document.getElementById("progressCurrent").innerText = value;
+            }
+
+            const renderCaption = (orderNumber, caption) => {
+                const innerHTML = `
+                        <div class="result-item">
+                            <div class="caption">${orderNumber + 1}. ${caption}</div>
+                            <div class="text"></div>
+                        </div>
+                `;
+
+                document.getElementById("resultContent").innerHTML += innerHTML;
+            }
+
+            const renderContent = (orderNumber, content) => {
+                const div = document.getElementById("resultContent");
+                elements = div.getElementsByClassName('text');
+                if (elements[orderNumber]) {
+                    elements[orderNumber].innerText = content;
+                }
+            }
+
+            const resolveFunc = (index) => {
+                renderProgress(index + 1);
+                renderContent(index, arrayOfSentences[index % arrayOfSentences.length]);
+            }
+
+            const lockForm = () => {
+                const fieldset = form.getElementsByTagName('fieldset')?.[0];
+                fieldset.disabled = true;
+
+            };
+            const unlockForm = () => {
+                const fieldset = form.getElementsByTagName('fieldset')?.[0];
+                fieldset.disabled = false;
+            };
+
+            const mapper = (value, index) => new Promise((resolve) => {
+                setTimeout(resolve, Math.round(Math.random() * 9000) + 4000); 
+                renderCaption(index, value);
+            });
+
+            const mapper2 = (value, index) => {
+                renderCaption(index, value);
+                return {value, index};
+            };
+
+            const queueFunc = (arrayStr, mapperFunc, limit, endQueueCallback) => {
+                // const q = new PromisesQueue(arrayStr.map(mapperFunc), limit, resolveFunc, endQueueCallback).startQueue();
+                const q = new PromisesQueue2(arrayStr.map(mapper2), limit, resolveFunc, endQueueCallback).startQueue();
+            }
+
+
+            const handleForm = (event) => { 
+                event.preventDefault(); 
+                const formProps = Object.fromEntries(new FormData(event.target));
+                
+                const arrayLength = formProps.length;
+                const limit = formProps.limit;
+
+                // generate array with random strings from 10 to 200 characters
+                const randomStrArray = [];
+                for (let i = 0; i < arrayLength; i++) {
+                    randomStrArray.push(generateRandomStr(Math.floor(Math.random() * (maxCaptionLenght - minCaptionLenght) + minCaptionLenght)));
+                }
+
+                document.getElementById("resultContent").innerHTML = '';
+                renderProgressFinal(arrayLength);
+                renderProgress(0);
+                lockForm();
+                queueFunc(randomStrArray, mapper, limit, unlockForm)
+
+            } 
+
+            const form = document.getElementById("searchForm");
+            form.addEventListener('submit', handleForm);
+
+
+        </script>
+    </body>
+</html>
